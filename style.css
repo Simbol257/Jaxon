@@ -92,19 +92,19 @@ body {
 }
 
 .hero--text__bottom {
-  background: linear-gradient(to bottom, #000, hsla(255, 70%, 40%, 1), #000);
+  background: linear-gradient(to bottom, #000, hsla(58, 52%, 48%, 1), #000);
 }
 
 .hero--text__diagonal {
   padding-bottom: 3rem;
-  background: linear-gradient(to bottom right, #000 60%, hsla(255, 70%, 40%, 1));
+  background: linear-gradient(to bottom right, #000 60%, hsla(58, 52% , 48%, 1));
 }
 
 .hero--tagline {
   font-size: 0.7rem;
   text-transform: uppercase;
   font-weight: 300;
-  color: hsla(255, 100%, 77%, 1);
+  color: hsla(58, 52% , 44% , 1);
 }
 
 .hero--headline {
@@ -149,17 +149,19 @@ iframe {
 }
 
 .hero--cta {
+  max-width: fit-content;
+  align-self: center;
   white-space: nowrap;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 0.8rem;
   font-weight: 700;
   color: #FFFFFF;
-  background: hsla(255, 70%, 40%, 1);
-  border: 2px solid hsla(255, 100%, 100%, 0.3);
+  background: hsla(58, 52% , 48%, 1);
+  border: 2px solid hsla(255, 0%, 100%, 0.3);
   padding: 0.5rem 1.5rem;
   border-radius: 0.8rem;
-  box-shadow: 0 0 1rem hsla(255, 100%, 100%, 0.6);
+  box-shadow: 0 0 1rem hsla(58, 52% , 48%, 1);
 }
 
 .false--btn {
@@ -179,7 +181,7 @@ iframe {
 .vertical--line {
   width: 100px;
   aspect-ratio: 1;
-  border-left: 2px solid white;
+  border-left: 2px solid hsla(58, 52% , 78%, 1);
   transform: translateX(50%);
 }
 
@@ -212,7 +214,7 @@ iframe {
 }
 
 .wins--container {
-  background: linear-gradient(to bottom right, #000, hsla(255, 70%, 20%, 1), #000);
+  background: linear-gradient(to bottom right, #000, hsla(58, 52% , 18%, 1), #000);
 }
 
 .wins {
@@ -246,31 +248,31 @@ iframe {
 }
 
 .win:nth-child(1) {
-  background: url("site.jpg");
+  background: url("https://images.pexels.com/photos/4195342/pexels-photo-4195342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-size: cover;
 }
 
 .win:nth-child(2) {
-  background: url("https://i.pinimg.com/736x/7b/4d/fa/7b4dfadca0e599d98bef3f3dda7b48b9.jpg");
+  background: url("https://images.pexels.com/photos/4195342/pexels-photo-4195342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-size: cover;
 }
 
 .win:nth-child(3) {
-  background: url("https://i.pinimg.com/736x/7b/4d/fa/7b4dfadca0e599d98bef3f3dda7b48b9.jpg");
+  background: url("https://images.pexels.com/photos/4195342/pexels-photo-4195342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-size: cover;
 }
 
 .win:nth-child(4) {
-  background: url("https://i.pinimg.com/736x/7b/4d/fa/7b4dfadca0e599d98bef3f3dda7b48b9.jpg");
+  background: url("https://images.pexels.com/photos/4195342/pexels-photo-4195342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-size: cover;
 }
 
 .win:nth-child(5) {
-  background: url("https://i.pinimg.com/736x/7b/4d/fa/7b4dfadca0e599d98bef3f3dda7b48b9.jpg");
+  background: url("https://images.pexels.com/photos/4195342/pexels-photo-4195342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-position: center;
   background-size: cover;
 }
@@ -325,7 +327,7 @@ iframe {
 }
 
 .access {
-  background: linear-gradient(to bottom right, #000 10%, hsla(255, 70%, 40%, 1), #000 90%);
+  background: linear-gradient(to bottom right, #000 10%, hsla(58, 52%,18%,1), #000 90%);
 }
 .services{
   width: 100vw;
