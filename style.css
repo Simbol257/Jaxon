@@ -180,7 +180,7 @@ iframe {
 .vertical--line {
   width: 100px;
   aspect-ratio: 1;
-  border-left: 2px solid hsla(250,100%,96%, 1);
+  border-left: 2px solid hsl(40,42%,75%);
   transform: translateX(50%);
 }
 
@@ -326,7 +326,7 @@ iframe {
 }
 
 .access {
-  background: linear-gradient(to bottom right, #000 10%, hsla(250,100%,24%,1), #000 90%);
+  background: linear-gradient(to bottom right, #000 10%, #222534, #000 90%);
 }
 .services{
   width: 100vw;
