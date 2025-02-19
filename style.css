@@ -180,7 +180,7 @@ iframe {
 .vertical--line {
   width: 100px;
   aspect-ratio: 1;
-  border-left: 2px solid hsl(40,42%,75%);
+  border-left: 2px solid hsl(40,92%,62%);
   transform: translateX(50%);
 }
 
